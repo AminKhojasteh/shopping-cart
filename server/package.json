@@ -1,5 +1,5 @@
 {
-  "name": "jwt-backend",
+  "name": "shoppingcart-backend",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.2",
+    "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
-    "crypto": "^1.0.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2"
+    "mongoose": "^8.13.2",
+    "validator": "^13.15.0"
   }
 }
